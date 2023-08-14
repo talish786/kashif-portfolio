@@ -6,7 +6,7 @@ function App() {
       {/* Mob header */}
       <div className="mob-header">
         <div className="mob-h-left">
-          <a className="navbar-brand" href="#home">
+          <a className="navbar-brand" data-scroll-nav={0} href="#home">
             <h1 className="headingFont">Kashif.</h1>
           </a>
         </div>
@@ -21,7 +21,7 @@ function App() {
       <div className="header-left-fixed one-page-nav">
         {/* Brand */}
         <div className="logo">
-          <a className="navbar-brand" href="#home">
+          <a className="navbar-brand" data-scroll-nav={0} href="#home">
             <h1 className="headingFont">Kashif.</h1>
           </a>
         </div>
