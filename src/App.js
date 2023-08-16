@@ -38,13 +38,8 @@ function App() {
             </a>
           </li>
           <li>
-            <a data-scroll-nav={2} href="#services">
-              Services
-            </a>
-          </li>
-          <li>
             <a data-scroll-nav={3} href="#work">
-              Portfolio
+              Services
             </a>
           </li>
           <li>
@@ -90,7 +85,7 @@ function App() {
               <div className="col-lg-12 col-xl-12 col-xxl-6">
                 <div className="hb-text">
                   <h1>
-                    Hello! I Am
+                    HI! I Am
                     <span> Kashif...</span>
                   </h1>
                   <p className="lead text-center fieldTitle">
@@ -102,7 +97,7 @@ function App() {
                     </p>
                     <p>
                       <i className="bi-envelope" />
-                      <span>mkashif@gmail.com</span>
+                      <span>kashifsonu5098@gmail.com</span>
                     </p>
                   </div>
                 </div>
@@ -133,32 +128,22 @@ function App() {
           <div className="container">
             <div className="section-heading text-center text-lg-start">
               <h6>Nice to meet you!</h6>
-              <h2>Welcome to...</h2>
+              <h2>About Me..</h2>
             </div>
             <div className="row gy-4">
-              <div className="col-lg-5">
-                <div className="about-left">
-                  <div className="about-avatar">
-                    <img src="assets/img/about-banner.png" alt="" />
-                  </div>
-                  <h3>Muhammad Kashif</h3>
-                  <p className="fieldTitle">
-                    Web Designer <span>based in</span> PAKISTAN
-                  </p>
-                  <div className="btn-bar">
-                    <a className="px-btn" href="#">
-                      Download CV <i className="bi-download" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7 ps-xl-5">
+              <div className="col-lg-12 ps-xl-5">
                 <div className="about-bio">
                   <p>
-                    Born in 2000, AB type living in Pakistan. We provide
-                    on-screen design for websites and apps, as well as front-end
-                    implementation. We will continue to pursue a wide range of
-                    expressions and better code by pursuing our “likes”.
+                    Hello there! I'm Muhammad Kashif, a Pakistani born in 2000.
+                    My expertise lies in Graphic Design, Digital Marketing,
+                    Social Media Management, Shopify Store Development, Wix
+                    Designing, SEO, and front-end implementation. I bring
+                    visuals to life through Graphic Design and elevate brands
+                    via innovative Digital Marketing strategies. With Social
+                    Media Management, I foster connections, while my Shopify and
+                    Wix skills create compelling online presences. SEO is my
+                    tool to enhance visibility, and front-end implementation
+                    ensures seamless user experiences.
                   </p>
                 </div>
                 <div className="about-contact row gx-lg-5">
@@ -175,7 +160,7 @@ function App() {
                   <div className="col-sm-6">
                     <p>
                       <i className="bi-envelope" />
-                      <span>mkashif@gmail.com</span>
+                      <span>kashifsonu5098@gmail.com</span>
                     </p>
                   </div>
                   <div className="col-sm-6">
@@ -185,42 +170,11 @@ function App() {
                   </div>
                 </div>
                 <div className="about-exp">
-                  <div className="row gy-4">
-                    <div className="col-md-6">
-                      <div className="a-number">
-                        <h6>10+</h6>
-                        <span>
-                          Years
-                          <br />
-                          experience...
-                        </span>
-                      </div>
-                      <p className="lead">
-                        Hello there! My name is <span>Muhammad Kashif</span>. I
-                        am a web designer &amp; developer, and I'm very
-                        passionate and dedicated to my work.
-                      </p>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="a-number">
-                        <h6>50+</h6>
-                        <span>
-                          Clients
-                          <br />
-                          Worldwide...
-                        </span>
-                      </div>
-                      <p className="lead">
-                        With 10+ years experience as a professional designer, I
-                        have acquired the skills to make your project a success.
-                      </p>
-                    </div>
-                  </div>
                   <blockquote>
                     <i className="fa-solid fa-quote-left" />
                     <p>
-                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Faucibus sed sit ultrices et sed metus sollicitudin.”
+                      “Join me on the journey of creative expression and coding
+                      excellence.”
                     </p>
                   </blockquote>
                 </div>
@@ -229,218 +183,64 @@ function App() {
           </div>
         </section>
         {/* End About Section */}
-        {/* Services Section */}
+        {/* Portfolio Section */}
         <section
-          id="services"
-          data-scroll-index={2}
-          className="section services-section bg-dark"
+          id="work"
+          data-scroll-index={3}
+          className="section work-section"
         >
           <div className="container">
             <div className="section-heading">
-              <h6>My Service</h6>
+              <h6>My Services</h6>
               <h2>My Specialties</h2>
             </div>
-            <div className="accordion accordion-flush" id="accordion_services">
-              <div className="accordion-item">
-                <div className="accordion-header">
-                  <button
-                    className="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="true"
-                    aria-controls="flush-collapseOne"
-                  >
-                    <span className="services-title">Web Design</span>
-                    <span className="services-small-desc">
-                      You can customize a template or make your own from
-                      scratch, with an immersive library at your disposal. You
-                      can customize a template
-                    </span>
-                    <span className="accordion-icon" />
-                  </button>
-                </div>
-                <div
-                  id="flush-collapseOne"
-                  className="accordion-collapse collapse show"
-                  data-bs-parent="#accordion_services"
-                >
-                  <div className="accordion-body">
-                    <div className="row gy-4">
-                      <div className="col-sm-6 col-md-4">
-                        <div className="s-img">
-                          <img src="assets/img/services-5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="col-sm-6 col-md-8">
-                        <h3>Web Design</h3>
-                        <div className="s-text">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum.
-                        </div>
-                      </div>
-                    </div>
+            <div className="row gy-5 lightbox-gallery">
+              <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                <div className="work-box">
+                  <div className="work-text">
+                    <h4>Graphic Designing</h4>
                   </div>
                 </div>
               </div>
-              <div className="accordion-item">
-                <div className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
-                  >
-                    <span className="services-title">UI/UX Design</span>
-                    <span className="services-small-desc">
-                      You can customize a template or make your own from
-                      scratch, with an immersive library at your disposal. You
-                      can customize a template
-                    </span>
-                    <span className="accordion-icon" />
-                  </button>
-                </div>
-                <div
-                  id="flush-collapseTwo"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordion_services"
-                >
-                  <div className="accordion-body">
-                    <div className="row gy-4">
-                      <div className="col-sm-6 col-md-4">
-                        <div className="s-img">
-                          <img src="assets/img/project-2.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="col-sm-6 col-md-8">
-                        <h3>UI/UX Design</h3>
-                        <div className="s-text">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum.
-                        </div>
-                      </div>
-                    </div>
+              <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                <div className="work-box">
+                  <div className="work-text">
+                    <h4>Digital Marketing</h4>
                   </div>
                 </div>
               </div>
-              <div className="accordion-item">
-                <div className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
-                  >
-                    <span className="services-title">Mobile Application</span>
-                    <span className="services-small-desc">
-                      You can customize a template or make your own from
-                      scratch, with an immersive library at your disposal. You
-                      can customize a template
-                    </span>
-                    <span className="accordion-icon" />
-                  </button>
-                </div>
-                <div
-                  id="flush-collapseThree"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordion_services"
-                >
-                  <div className="accordion-body">
-                    <div className="row gy-4">
-                      <div className="col-sm-6 col-md-4">
-                        <div className="s-img">
-                          <img src="assets/img/project-3.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="col-sm-6 col-md-8">
-                        <h3>Mobile Application</h3>
-                        <div className="s-text">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum.
-                        </div>
-                      </div>
-                    </div>
+              <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                <div className="work-box">
+                  <div className="work-text">
+                    <h4>Social Media Management</h4>
                   </div>
                 </div>
               </div>
-              <div className="accordion-item">
-                <div className="accordion-header">
-                  <button
-                    className="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapsefour"
-                    aria-expanded="false"
-                    aria-controls="flush-collapsefour"
-                  >
-                    <span className="services-title">User research</span>
-                    <span className="services-small-desc">
-                      You can customize a template or make your own from
-                      scratch, with an immersive library at your disposal. You
-                      can customize a template
-                    </span>
-                    <span className="accordion-icon" />
-                  </button>
+              <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                <div className="work-box">
+                  <div className="work-text">
+                    <h4>Shopify Store Development</h4>
+                  </div>
                 </div>
-                <div
-                  id="flush-collapsefour"
-                  className="accordion-collapse collapse"
-                  data-bs-parent="#accordion_services"
-                >
-                  <div className="accordion-body">
-                    <div className="row gy-4">
-                      <div className="col-sm-6 col-md-4">
-                        <div className="s-img">
-                          <img src="assets/img/project-4.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="col-sm-6 col-md-8">
-                        <h3>User research</h3>
-                        <div className="s-text">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit esse cillum dolore eu
-                          fugiat nulla pariatur. Excepteur sint occaecat
-                          cupidatat non proident, sunt in culpa qui officia
-                          deserunt mollit anim id est laborum.
-                        </div>
-                      </div>
-                    </div>
+              </div>
+              <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                <div className="work-box">
+                  <div className="work-text">
+                    <h4>Wix Designing</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                <div className="work-box">
+                  <div className="work-text">
+                    <h4>SEO</h4>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        {/* End Services Section */}
+        {/* End Portfolio Section */}
         {/* Contact Section */}
         <section
           id="contact"
